@@ -2,7 +2,7 @@ package by.epam.javatraining.glazunov.task02.model.container.linked;
 
 import by.epam.javatraining.glazunov.task02.model.container.ListOwnCollection;
 
-public interface IMyLinkedList extends ListOwnCollection  {
+public interface LinkedList extends ListOwnCollection  {
 
 	public void addAt(int index, int value);
 

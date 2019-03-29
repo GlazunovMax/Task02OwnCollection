@@ -2,9 +2,10 @@ package by.epam.javatraining.glazunov.task02.model.container;
 
 import by.epam.javatraining.glazunov.task02.model.exception.MissingItemsInCollectionException;
 
-public interface IMyQueue extends ListOwnCollection {
-	public void add(int data);
+public interface Stack extends ListOwnCollection {
 
-	public void remove() throws MissingItemsInCollectionException;
+	public void push(int data);
+
+	public boolean pop() throws MissingItemsInCollectionException;
 
 }

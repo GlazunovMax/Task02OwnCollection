@@ -3,7 +3,7 @@ package by.epam.javatraining.glazunov.task02.model.container.linked;
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
-public class MyLinkedList implements IMyLinkedList {
+public class MyLinkedList implements LinkedList {
 	private Node head; 
 	private Node tail;
 	private int size; //р-р LinkedList

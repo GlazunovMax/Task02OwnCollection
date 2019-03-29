@@ -2,7 +2,7 @@ package by.epam.javatraining.glazunov.task02.model.container.array;
 
 import by.epam.javatraining.glazunov.task02.model.container.ListOwnCollection;
 
-public interface IMyArrayList extends ListOwnCollection {
+public interface ArrayList extends ListOwnCollection {
 	boolean add(Object object);
 
 	Object get(int index);

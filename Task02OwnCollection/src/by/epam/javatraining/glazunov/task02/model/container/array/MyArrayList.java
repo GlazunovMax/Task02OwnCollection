@@ -1,6 +1,6 @@
 package by.epam.javatraining.glazunov.task02.model.container.array;
 
-public class MyArrayList implements IMyArrayList {
+public class MyArrayList implements ArrayList {
 	private Object[] objects;
 
 	public MyArrayList() {
